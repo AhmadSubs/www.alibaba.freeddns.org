@@ -3,19 +3,18 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Vault Mastodon - Premium Business Solutions</title>
-    <link rel="canonical" href="https://vault.mastodon.ml/" />
-    <meta name="description" content="Vault Mastodon menyediakan layanan bisnis eksklusif dan produk premium dengan standar kualitas tertinggi. Temukan penawaran terbaik dan layanan profesional di sini.">
-    <link rel="icon" type="image/x-icon" href="https://vault.mastodon.ml/favicon.ico">
-    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
-    
+    <title>Alibaba Premium - Solusi Bisnis & Perdagangan Eksklusif</title>
+    <link rel="canonical" href="https://www.alibaba.freeddns.org/" />
+    <meta name="description" content="Selamat datang di Alibaba Premium. Platform eksklusif untuk kebutuhan bisnis, perdagangan global, dan produk mewah dengan layanan terbaik di kelasnya.">
+    <link rel="icon" type="image/png" href="https://www.alibaba.freeddns.org/favicon.png">
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@700&family=Montserrat:wght@300;400;600&display=swap" rel="stylesheet">
     <style>
         :root {
-            --primary-gold: #d4af37;
-            --dark-bg: #0a0a0a;
-            --glass-bg: rgba(255, 255, 255, 0.05);
-            --border-glow: rgba(212, 175, 55, 0.3);
-            --radius: 15px;
+            --gold-gradient: linear-gradient(135deg, #bf953f, #fcf6ba, #b38728, #fbf5b7, #aa771c);
+            --luxury-black: #121212;
+            --soft-gray: #1e1e1e;
+            --text-light: #e0e0e0;
+            --radius: 20px;
         }
 
         * {
@@ -25,229 +24,273 @@
         }
 
         body {
-            background-color: var(--dark-bg);
-            color: #ffffff;
-            font-family: 'Poppins', sans-serif;
-            line-height: 1.6;
+            background-color: var(--luxury-black);
+            color: var(--text-light);
+            font-family: 'Montserrat', sans-serif;
+            line-height: 1.7;
             overflow-x: hidden;
         }
 
-        /* Top Bar & Navigation */
+        /* Top Bar Navigation */
         header {
             position: fixed;
             top: 0;
             width: 100%;
-            background: rgba(10, 10, 10, 0.8);
-            backdrop-filter: blur(10px);
-            border-bottom: 1px solid var(--border-glow);
+            background: rgba(18, 18, 18, 0.9);
+            backdrop-filter: blur(15px);
+            border-bottom: 1px solid rgba(191, 149, 63, 0.3);
             z-index: 1000;
-            padding: 15px 5%;
+            padding: 20px 6%;
             display: flex;
             justify-content: space-between;
             align-items: center;
         }
 
         .logo {
-            font-family: 'Playfair Display', serif;
-            font-size: 24px;
-            color: var(--primary-gold);
+            font-family: 'Cinzel', serif;
+            font-size: 26px;
+            background: var(--gold-gradient);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
             text-decoration: none;
-            letter-spacing: 1px;
-            text-transform: uppercase;
+            letter-spacing: 2px;
         }
 
         nav ul {
             display: flex;
             list-style: none;
-            gap: 30px;
+            gap: 35px;
         }
 
         nav ul li a {
             color: #fff;
             text-decoration: none;
-            font-size: 14px;
-            transition: 0.3s;
+            font-size: 13px;
+            font-weight: 600;
             text-transform: uppercase;
+            letter-spacing: 1px;
+            transition: 0.3s;
         }
 
         nav ul li a:hover {
-            color: var(--primary-gold);
+            color: #bf953f;
         }
 
-        /* Hero Section */
+        /* Hero & Promo Section */
         .hero {
-            height: 80vh;
+            height: 90vh;
+            background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), 
+                        url('https://images.unsplash.com/photo-1578575437130-527eed3abbec?q=80&w=2070') center/cover;
             display: flex;
             align-items: center;
             justify-content: center;
             text-align: center;
-            background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url('https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?q=80&w=2070') center/cover;
-            margin-top: 60px;
-            border-bottom-left-radius: 50px;
-            border-bottom-right-radius: 50px;
+            padding: 0 20px;
         }
 
-        .hero-content {
-            max-width: 800px;
-            padding: 20px;
+        .hero-box {
+            background: rgba(255, 255, 255, 0.03);
+            padding: 60px;
+            border-radius: var(--radius);
+            border: 1px solid rgba(255, 255, 255, 0.1);
+            backdrop-filter: blur(10px);
+            max-width: 900px;
+        }
+
+        .promo-tag {
+            display: inline-block;
+            border: 1px solid #bf953f;
+            color: #bf953f;
+            padding: 5px 25px;
+            border-radius: 50px;
+            font-size: 12px;
+            margin-bottom: 20px;
+            text-transform: uppercase;
+            font-weight: bold;
         }
 
         .hero h1 {
-            font-family: 'Playfair Display', serif;
-            font-size: 3.5rem;
+            font-family: 'Cinzel', serif;
+            font-size: 4rem;
             margin-bottom: 20px;
-            color: var(--primary-gold);
+            color: #fff;
         }
 
-        .promo-badge {
-            background: var(--primary-gold);
-            color: #000;
-            padding: 5px 20px;
-            border-radius: 50px;
-            font-weight: bold;
+        .btn-gold {
             display: inline-block;
-            margin-bottom: 20px;
-            animation: pulse 2s infinite;
+            background: var(--gold-gradient);
+            color: #000;
+            padding: 15px 40px;
+            border-radius: 50px;
+            text-decoration: none;
+            font-weight: bold;
+            margin-top: 30px;
+            transition: 0.3s;
+        }
+
+        .btn-gold:hover {
+            transform: scale(1.05);
+            box-shadow: 0 0 20px rgba(191, 149, 63, 0.5);
         }
 
         /* Categories Section */
         .section {
-            padding: 80px 5%;
+            padding: 100px 8%;
         }
 
-        .section-title {
+        .section-header {
             text-align: center;
-            font-family: 'Playfair Display', serif;
+            margin-bottom: 60px;
+        }
+
+        .section-header h2 {
+            font-family: 'Cinzel', serif;
             font-size: 2.5rem;
-            margin-bottom: 50px;
-            color: var(--primary-gold);
+            color: #bf953f;
         }
 
-        .category-grid {
+        .grid-categories {
             display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-            gap: 25px;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 30px;
         }
 
-        .card {
-            background: var(--glass-bg);
-            border: 1px solid var(--border-glow);
-            padding: 30px;
+        .cat-card {
+            position: relative;
+            height: 400px;
             border-radius: var(--radius);
-            transition: 0.4s;
-            text-align: center;
-            backdrop-filter: blur(5px);
+            overflow: hidden;
+            border: 1px solid rgba(191, 149, 63, 0.2);
+            cursor: pointer;
         }
 
-        .card:hover {
-            transform: translateY(-10px);
-            background: rgba(212, 175, 55, 0.1);
-            box-shadow: 0 10px 30px rgba(212, 175, 55, 0.2);
-        }
-
-        .card img {
+        .cat-card img {
             width: 100%;
-            height: 200px;
+            height: 100%;
             object-fit: cover;
-            border-radius: 10px;
-            margin-bottom: 20px;
+            transition: 0.5s;
+        }
+
+        .cat-card:hover img {
+            transform: scale(1.1);
+        }
+
+        .cat-overlay {
+            position: absolute;
+            bottom: 0;
+            width: 100%;
+            background: linear-gradient(transparent, rgba(0,0,0,0.9));
+            padding: 30px;
+            text-align: left;
         }
 
         /* Contact Section */
-        .contact-container {
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-            gap: 40px;
-            background: var(--glass-bg);
-            padding: 50px;
+        .contact-section {
+            background: var(--soft-gray);
             border-radius: var(--radius);
-            border: 1px solid var(--border-glow);
+            padding: 60px;
+            display: flex;
+            justify-content: space-between;
+            flex-wrap: wrap;
+            gap: 40px;
+            border: 1px solid rgba(255, 255, 255, 0.05);
         }
 
-        .info-item {
+        .contact-info h3 {
+            font-family: 'Cinzel', serif;
             margin-bottom: 20px;
+            color: #bf953f;
         }
 
-        .info-item h4 {
-            color: var(--primary-gold);
-            margin-bottom: 5px;
+        .info-detail {
+            margin-bottom: 15px;
+            display: block;
+            color: #bbb;
+            text-decoration: none;
         }
 
         footer {
-            text-align: center;
             padding: 40px;
-            border-top: 1px solid var(--border-glow);
-            font-size: 13px;
-            color: #888;
-        }
-
-        @keyframes pulse {
-            0% { transform: scale(1); }
-            50% { transform: scale(1.05); }
-            100% { transform: scale(1); }
+            text-align: center;
+            border-top: 1px solid rgba(255, 255, 255, 0.05);
+            font-size: 12px;
+            color: #666;
         }
 
         @media (max-width: 768px) {
             .hero h1 { font-size: 2.5rem; }
-            nav ul { display: none; } /* Mobile menu simplified for demo */
+            header { padding: 15px 5%; }
+            nav ul { display: none; }
         }
     </style>
 </head>
 <body>
 
     <header>
-        <a href="https://vault.mastodon.ml/" class="logo">VAULT MASTODON</a>
+        <a href="https://www.alibaba.freeddns.org/" class="logo">ALIBABA PREMIUM</a>
         <nav>
             <ul>
-                <li><a href="#home">Home</a></li>
+                <li><a href="#home">Beranda</a></li>
+                <li><a href="#layanan">Layanan</a></li>
                 <li><a href="#kategori">Kategori</a></li>
-                <li><a href="#promo">Promo</a></li>
                 <li><a href="#kontak">Hubungi Kami</a></li>
             </ul>
         </nav>
     </header>
-             <div style="display: none;">
-             <a href="https://eatingbeforebed.com/">Bosmenang</a>
-             </div>
+
     <section class="hero" id="home">
-        <div class="hero-content">
-            <div class="promo-badge">PENAWARAN TERBAIK MINGGU INI</div>
-            <h1>Exclusive Vault for Your Future</h1>
-            <p>Akses ke layanan bisnis premium dan produk eksklusif yang dirancang khusus untuk Anda yang mengutamakan kemewahan dan fungsionalitas.</p>
+        <div class="hero-box">
+            <span class="promo-tag">Penawaran Eksklusif Terbatas</span>
+            <h1>Elegansi Dalam Setiap Transaksi Bisnis</h1>
+            <p>Akses ke jaringan distribusi global dan produk berkualitas tinggi untuk mendukung ekspansi bisnis Anda ke level berikutnya.</p>
+            <a href="#kategori" class="btn-gold">Jelajahi Sekarang</a>
         </div>
     </section>
 
     <section class="section" id="kategori">
-        <h2 class="section-title">Kategori Unggulan</h2>
-        <div class="category-grid">
-            <div class="card">
-                <img src="https://images.unsplash.com/photo-1507679799987-c73779587ccf?q=80&w=500" alt="Business Strategy">
-                <h3>Strategi Bisnis</h3>
-                <p>Konsultasi eksklusif untuk pengembangan aset digital Anda.</p>
+        <div class="section-header">
+            <h2>Kategori Utama</h2>
+            <p>Pilihan sektor industri terbaik untuk pertumbuhan investasi Anda</p>
+        </div>
+        <div class="grid-categories">
+            <div class="cat-card">
+                <img src="https://images.unsplash.com/photo-1512428559087-560fa5ceab42?q=80&w=500" alt="E-Commerce">
+                <div class="cat-overlay">
+                    <h3>Global Trading</h3>
+                    <p>Impor & Ekspor barang mewah ke seluruh dunia.</p>
+                </div>
             </div>
-            <div class="card">
-                <img src="https://images.unsplash.com/photo-1563013544-824ae1b704d3?q=80&w=500" alt="Premium Products">
-                <h3>Produk Mewah</h3>
-                <p>Koleksi item terpilih dengan kualitas material terbaik.</p>
+            <div class="cat-card">
+                <img src="https://images.unsplash.com/photo-1460925895917-afdab827c52f?q=80&w=500" alt="Business Strategy">
+                <div class="cat-overlay">
+                    <h3>Business Consulting</h3>
+                    <p>Strategi pertumbuhan bisnis digital yang efektif.</p>
+                </div>
             </div>
-            <div class="card">
-                <img src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?q=80&w=500" alt="Digital Vault">
-                <h3>Digital Vault</h3>
-                <p>Penyimpanan data aman dengan protokol enkripsi tingkat tinggi.</p>
+            <div class="cat-card">
+                <img src="https://images.unsplash.com/photo-1556742044-3c52d6e88c62?q=80&w=500" alt="Premium Logistics">
+                <div class="cat-overlay">
+                    <h3>VIP Logistics</h3>
+                    <p>Pengiriman aman dan cepat dengan asuransi penuh.</p>
+                </div>
             </div>
         </div>
     </section>
 
-    <section class="section" id="promo">
-        <div class="card" style="max-width: 900px; margin: 0 auto; display: flex; align-items: center; flex-wrap: wrap; text-align: left;">
-            <div style="flex: 1; padding: 20px; min-width: 300px;">
-                <h2 style="color: var(--primary-gold);">Penawaran Terbatas!</h2>
-                <p>Dapatkan diskon eksklusif hingga 40% untuk pendaftaran layanan VIP di bulan ini. Jangan lewatkan kesempatan untuk bergabung dengan jaringan elit kami.</p>
-                <br>
-                <a href="#" style="background: var(--primary-gold); color: black; padding: 10px 25px; text-decoration: none; border-radius: 5px; font-weight: bold;">Ambil Promo Sekarang</a>
+    <section class="section" id="kontak">
+        <div class="contact-section">
+            <div class="contact-info" style="flex: 1; min-width: 300px;">
+                <h3>Informasi Kontak</h3>
+                <p style="margin-bottom: 20px;">Tim ahli kami siap membantu Anda 24/7 untuk konsultasi bisnis dan bantuan teknis.</p>
+                <a href="#" class="info-detail">📍 Headquarters: International Business Plaza, Jakarta</a>
+                <a href="tel:+6283199459150" class="info-detail">📞 WhatsApp: +62 831 9945 9150</a>
+                <a href="mailto:support@alibaba.freeddns.org" class="info-detail">✉️ Email: vip.support@alibaba.freeddns.org</a>
             </div>
-            <div style="flex: 1; min-width: 300px;">
-                <img src="https://images.unsplash.com/photo-1512428559087-560fa5ceab42?q=80&w=500" style="width: 100%; border-radius: 10px;" alt="Promo">
+            <div style="flex: 1; min-width: 300px; background: rgba(191, 149, 63, 0.1); padding: 30px; border-radius: var(--radius);">
+                <h3 style="color: #fff;">Promo Hari Ini</h3>
+                <p>Dapatkan potongan harga pengiriman sebesar 20% untuk transaksi pertama melalui platform kami dengan kode: <strong>ALIBABA2026</strong></p>
+                <br>
+                <small>*Berlaku untuk semua jenis pengiriman internasional.</small>
             </div>
         </div>
     </section>
@@ -258,30 +301,8 @@
      <a href="https://risetogether.shegeeksout.com/">Bosmujur</a>
      <a href="https://weinshop.radiofrankfurt.de/">Bosmujur</a>
 </div>
-    <section class="section" id="kontak">
-        <h2 class="section-title">Contact Person</h2>
-        <div class="contact-container">
-            <div class="info-item">
-                <h4>Alamat Kantor</h4>
-                <p>Mansion District, No. 404 Luxury Ave, Jakarta</p>
-            </div>
-            <div class="info-item">
-                <h4>WhatsApp</h4>
-                <p>+62 812 3456 7890</p>
-            </div>
-            <div class="info-item">
-                <h4>Email Resmi</h4>
-                <p>vip@vault.mastodon.ml</p>
-            </div>
-            <div class="info-item">
-                <h4>Jam Operasional</h4>
-                <p>Senin - Jumat: 09:00 - 21:00 WIB</p>
-            </div>
-        </div>
-    </section>
-
     <footer>
-        <p>&copy; 2026 Vault Mastodon. All Rights Reserved. Secured by HTTPS Encryption.</p>
+        <p>&copy; 2026 ALIBABA PREMIUM - Secure Site (HTTPS Enabled). Semua Hak Dilindungi.</p>
     </footer>
 
 </body>
